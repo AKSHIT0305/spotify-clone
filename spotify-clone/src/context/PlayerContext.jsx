@@ -9,7 +9,7 @@ const PlayerContextProvider = (props) => {
     const audioRef = useRef();
     const seekBg = useRef();
     const seekBar = useRef();
-    const url = 'https://spotify-clone-mcdk.onrender.com'
+    const url = 'http://localhost:4000'
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData,setAlbumData] = useState([]);
